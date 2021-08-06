@@ -1,29 +1,33 @@
+/* format universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* add backgraound color to html body  */
 body {
     background-color: #d9dcd6;
 }
 
+/* format header element  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* format header h1 */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* format header h1 .seo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* format div in header element */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,28 @@ body {
     font-size: 20px;
 }
 
+/* format list style of unordered list in header div */
 .header div ul {
     list-style-type: none;
 }
 
+/* change the display of list items inside unordered list of header div */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* add color and text decoration to link elements  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* change paragraph elements' font size */
 p {
     font-size: 16px;
 }
 
+/* insert and format hero section background image  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +67,26 @@ p {
     background-position: center;
 }
 
+/* float float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* float float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* format content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* format benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,22 +98,26 @@ p {
     background-color: #2589bd;
 }
 
+/* format benefits-lead, benefits-brand, benefits-cost classes */
 .benefit-lead, .benefit-brand, .benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* format benefits-lead h3, benefits-brand h3, benefits-cost h3 classes  */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* format benefits-lead img, benefits-brand img, benefits-cost img classes */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* format .search-engine-optimization,.online-reputation-management, .social-media-marketing classes  */
 .search-engine-optimization,.online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +127,18 @@ p {
     color: #ffffff;
 }
 
+/* format .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img classes */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* format .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 classes */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* format footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -127,6 +146,7 @@ p {
     text-align: center;
 }
 
+/* format footer header */
 .footer h2 {
     font-size: 20px;
 }
